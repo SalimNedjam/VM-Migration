@@ -1,0 +1,65 @@
+% Domaine du stage (VM)
+\newpage
+\section{Contexte général}
+Nous allons maintenant définir les raisons et les objectifs du projet.
+Ensuite, nous découvrirons les cas d'usage et les avantages que propose la migration de machines virtuelles.
+Enfin, nous citerons quelques problèmes et attaques que l'on peut relever lors d'une migration de machine virtuelle. 
+
+\subsection{Rappel des objectifs}
+Le projet SECPB s’inscrit dans le domaine du Cloud computing où des machines virtuelles sont utilisées pour assurer le déploiement de services logiciel auprès des utilisateurs finaux.
+Les fournisseurs d’infrastructures (GANDI, SQUAD, Green Communications) sont chargés par leur client de déployer et d’assurer le bon fonctionnement de leurs solutions tout en fournissant des garanties de sécurité, de confidentialité et d’intégrité des données hébergées.
+Dans le but d’assurer une meilleure gestion des pics de charge et des latences utilisateur, il a été envisagé d’effectuer un rapprochement entre les hébergeurs de machines virtuelles de telle sorte à ce qu’une machine virtuelle d’un client puisse être migrée entre les différentes infrastructures des fournisseurs.
+Le gain de flexibilité de cette solution nécessite cependant la mise en œuvre de politique de sécurisation des données, faisant respecter le contrat qui lie les clients finaux avec leurs fournisseurs.
+Il s’agit d’être capable de contrôler l’intégrité des machines virtuelles échangées en générant une empreinte desdites machines qui pourra être échangée de manière sécurisée entre les fournisseurs à travers une blockchain.
+
+\subsection{Avantages de la migration de machine virtuelle}
+Étant donné qu'un nombre croissant d'utilisateurs choisissent les centres de données dans le cloud pour héberger leurs applications,
+la gestion efficace des machines virtuelles dans ces centres devient un problème majeur.
+Par exemple, certains serveurs peuvent être surchargés, tandis que d'autres sont sous-utilisés, si un serveur tombe en panne, toutes les machines virtuelles qui s'y trouvent seront touchées.
+Tous ces problèmes (comment répartir uniformément les tâches entre les serveurs, comment protéger les machines virtuelles contre les défaillances matérielles, etc.) sont résolus avec l'arrivée d'une technologie essentielle : la migration des machines virtuelles.
+Une VM peut être déplacée d'un serveur à un autre, voire d'un centre de données à un autre.
+La majorité des opérations de gestion du cloud sont prises en charge par la migration des machines virtuelles, telles que :
+
+\begin{description}
+    \item[La consolidation des serveurs]
+    Les VM sont constamment créées et détruites dans un centre de données.
+    En outre, certaines d'entre elles peuvent être suspendues ou inactives.
+    Les VM seront donc mal réparties si les serveurs d'un centre de données ne sont pas correctement consolidés.
+    Dans le cadre de la consolidation des serveurs, les machines virtuelles sont migrées pour des raisons énergétiques (en utilisant le moins de serveurs possibles) ou de communication (en plaçant les machines virtuelles qui communiquent beaucoup entre elles sur le même serveur pour réduire le trafic réseau).
+    
+    \item[Équilibrage de la charge]
+    L'état de surcharge réduit non seulement la durée de vie d'un serveur, mais dégrade également la qualité de service (QoS).
+    Par ailleurs, les serveurs fonctionnant en état de sous-charge entraînent un gaspillage d'énergie.
+    La migration de machines virtuelles garantit que tous les serveurs d'un centre de données fonctionnent de manière égale, sans diminution de la qualité de service.
+    Les charges peuvent même être équilibrées entre plusieurs centres de données géodistribués lorsque la migration de machines virtuelles est activée.
+
+    \item[Maintenance matérielle sans temps d'arrêt]
+    Les serveurs d'un centre de données peuvent avoir une forte probabilité de tomber en panne après une longue période de fonctionnement ou après être déjà tombés en panne.
+    Ces serveurs peuvent être remplacés par de nouveaux serveurs en retirant toutes les machines virtuelles qui s'y trouvent et en les relançant après le remplacement de la machine. 
+    Ceci s'applique également à la mise à niveau du matériel.
+
+\end{description} 
+
+
+
+\subsection{Problème lors des migrations de machine virtuelles}
+
+La migration présente aussi de nombreuses failles de sécurité.
+Les menaces de sécurité peuvent concerner les données, la gestion de contrôle et la migration.
+Les personnes tierces peuvent provoquer des attaques passives et/ou actives, ce qui entraîne une dégradation des performances de la migration.
+L'hyperviseur, sur lequel la migration est effectuée, est également vulnérable aux menaces de sécurité.
+Cela pose de graves problèmes de confidentialité, d'authentification et de respect de la vie privée pour les données qui sont migrées entre deux serveurs.
+
+Nous pouvons donner quelques exemples :
+
+\begin{itemize}
+    \item Les attaquants peuvent faire du snooping sur les données au cours de la migration de la machine virtuelle.  
+
+    \item Les attaquants peuvent provoquer un dépassement de capacité du buffer en injectant du trafic indésirable dans le canal de communication, ce qui corrompt la mémoire du processus en cours d'exécution.
+    
+    \item Les attaquants peuvent exploiter la signature des entiers afin d'obtenir le contrôle de l'exécution du code en mode privilégié.
+    
+    \item Les attaquants peuvent modifier l'ordre des pages de mémoire transférées de la machine virtuelle source à la machine virtuelle de destination.   
+\end{itemize}
+
+Dans la suite de ce rapport nous allons nous concentrer sur les attaques qui affectent l'intégrité des données lors de la migration.

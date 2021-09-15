@@ -1,0 +1,75 @@
+[True, '512', '0', '2009600']
+total time: 3645 ms
+downtime: 35 ms
+[True, '512', '0', '2009600']
+total time: 3641 ms
+downtime: 34 ms
+[True, '512', '0', '2009600']
+total time: 3627 ms
+downtime: 21 ms
+[True, '512', '0', '2009600']
+total time: 3623 ms
+downtime: 19 ms
+[True, '512', '0', '2009600']
+total time: 3627 ms
+downtime: 22 ms
+[True, '1024', '0', '2009600']
+total time: 4831 ms
+downtime: 24 ms
+[True, '1024', '0', '2009600']
+total time: 4840 ms
+downtime: 27 ms
+[True, '1024', '0', '2009600']
+total time: 4842 ms
+downtime: 28 ms
+[True, '1024', '0', '2009600']
+total time: 4943 ms
+downtime: 29 ms
+[True, '1024', '0', '2009600']
+total time: 4827 ms
+downtime: 18 ms
+[True, '2048', '0', '2009600']
+total time: 5136 ms
+downtime: 27 ms
+[True, '2048', '0', '2009600']
+total time: 5031 ms
+downtime: 17 ms
+[True, '2048', '0', '2009600']
+total time: 5043 ms
+downtime: 33 ms
+[True, '2048', '0', '2009600']
+total time: 5142 ms
+downtime: 26 ms
+[True, '2048', '0', '2009600']
+total time: 5127 ms
+downtime: 17 ms
+[True, '4096', '0', '2009600']
+total time: 6240 ms
+downtime: 27 ms
+[True, '4096', '0', '2009600']
+total time: 6137 ms
+downtime: 24 ms
+[True, '4096', '0', '2009600']
+total time: 6149 ms
+downtime: 32 ms
+[True, '4096', '0', '2009600']
+total time: 6240 ms
+downtime: 20 ms
+[True, '4096', '0', '2009600']
+total time: 6246 ms
+downtime: 32 ms
+[True, '8192', '0', '2009600']
+total time: 7150 ms
+downtime: 28 ms
+[True, '8192', '0', '2009600']
+total time: 7349 ms
+downtime: 35 ms
+[True, '8192', '0', '2009600']
+total time: 7248 ms
+downtime: 32 ms
+[True, '8192', '0', '2009600']
+total time: 7237 ms
+downtime: 23 ms
+[True, '8192', '0', '2009600']
+total time: 7447 ms
+downtime: 31 ms

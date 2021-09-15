@@ -1,0 +1,20 @@
+\babel@toc {french}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Repr\IeC {\'e}sentation de la pile de virtualisation\relax }}{7}{figure.caption.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Repr\IeC {\'e}sentation des diff\IeC {\'e}rents types de migration\relax }}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sch\IeC {\'e}ma des structures SaveState et SaveStateEntry\relax }}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sch\IeC {\'e}ma de la structure VMStateDescription\relax }}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Repr\IeC {\'e}sentation du format d'une section QEMU\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Liste des diff\IeC {\'e}rentes sections utilis\IeC {\'e}es lors de la migration\relax }}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Relation entre les diff\IeC {\'e}rentes sections et les phases de la migration\relax }}{21}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Tableau de types de migration\relax }}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Repr\IeC {\'e}sentation graphique des diff\IeC {\'e}rentes approches\relax }}{30}{figure.caption.25}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Repr\IeC {\'e}sentation graphique de approche retenue\relax }}{32}{figure.caption.26}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Repr\IeC {\'e}sentation graphique d'un diff entre les donn\IeC {\'e}es envoy\IeC {\'e}es et re\IeC {\c c}ues.\relax }}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Diff\IeC {\'e}rence de downtime et du temps total pour la version par d\IeC {\'e}faut et la version modifi\IeC {\'e}e\relax }}{39}{figure.caption.28}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diff\IeC {\'e}rence de downtime et du temps total pour la version par d\IeC {\'e}faut et la version modifi\IeC {\'e}e\relax }}{40}{figure.caption.29}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Sans (d\IeC {\'e})compression.\relax }}{45}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Avec (d\IeC {\'e})compression.\relax }}{45}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Avec multi-thread (d\IeC {\'e})compression.\relax }}{45}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces List d'appels suite \IeC {\`a} un page-fault\relax }}{47}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flux unique.\relax }}{48}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Flux Multiple.\relax }}{49}{figure.19}%

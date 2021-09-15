@@ -1,0 +1,15 @@
+/GNUmakefile
+/build/
+*.pyc
+.sdk
+.stgit-*
+.git-submodule-status
+cscope.*
+tags
+TAGS
+*~
+*.ast_raw
+*.depend_raw
+ubuntu-20.04.2-live-server-amd64.iso
+/imgs/
+/install/

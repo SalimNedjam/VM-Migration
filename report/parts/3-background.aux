@@ -1,0 +1,79 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{kvmbook}
+\citation{kvmbook}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Contexte technique}{5}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Virtualisation}{5}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Choix d'un hyperviseur : QEMU}{6}{subsubsection.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}Pile de virtualisation}{7}{subsubsection.2.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Repr\IeC {\'e}sentation de la pile de virtualisation\relax }}{7}{figure.caption.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Techniques de migration}{7}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Migration \IeC {\`a} froid (non-live)}{8}{subsubsection.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Migration \IeC {\`a} chaud (live)}{9}{subsubsection.2.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Repr\IeC {\'e}sentation des diff\IeC {\'e}rents types de migration\relax }}{11}{figure.caption.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Migration dans QEMU}{11}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Structures de donn\IeC {\'e}es dans QEMU}{12}{subsubsection.2.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Sch\IeC {\'e}ma des structures SaveState et SaveStateEntry\relax }}{13}{figure.caption.6}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}Exemple d'une structure de donn\IeC {\'e}e SaveVMHandlers}{14}{lstlisting.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Exemple d'une structure de donn\IeC {\'e}e VMStateDescription}{14}{lstlisting.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Sch\IeC {\'e}ma de la structure VMStateDescription\relax }}{16}{figure.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Protocole d'\IeC {\'e}change}{16}{subsubsection.2.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Repr\IeC {\'e}sentation du format d'une section QEMU\relax }}{17}{figure.caption.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Liste des diff\IeC {\'e}rentes sections utilis\IeC {\'e}es lors de la migration\relax }}{18}{figure.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}Processus de migration}{19}{subsubsection.2.3.3}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Code responsable de la phase d'initiation}{19}{lstlisting.3}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}Diff\IeC {\'e}rentes fonctions d'initialisation de la bitmap}{19}{lstlisting.4}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}Code responsable de l'envoie des nom et tailles des pages migr\IeC {\'e}s}{19}{lstlisting.5}\protected@file@percent }
+\citation{redhat}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}Code responsable de la phase de copie}{20}{lstlisting.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Relation entre les diff\IeC {\'e}rentes sections et les phases de la migration\relax }}{21}{figure.caption.15}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7}Code responsable de la phase de pr\IeC {\'e}paration}{22}{lstlisting.7}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {8}Code responsable de la phase de copie}{22}{lstlisting.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.4}Migration disque}{23}{subsubsection.2.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsubsection}{\numberline {2.3.4.1}Processus de migration du disque}{24}{subsubsubsection.2.3.4.1}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {9}SaveVMHandlers responsable de la migration du disque}{24}{lstlisting.9}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {10}Code responsable de la phase de pr\IeC {\'e}paration}{24}{lstlisting.10}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {11}Code responsable de la phase de copie}{25}{lstlisting.11}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {12}Code responsable de la phase de fin}{25}{lstlisting.12}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {13}Code responsable de la r\IeC {\'e}cup\IeC {\'e}ration du nom du device et du num\IeC {\'e}ro de secteur}{26}{lstlisting.13}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {14}Code responsable de la r\IeC {\'e}cup\IeC {\'e}ration des donn\IeC {\'e}es}{26}{lstlisting.14}\protected@file@percent }
+\@setckpt{parts/3-background}{
+\setcounter{page}{27}
+\setcounter{equation}{0}
+\setcounter{enumi}{2}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{section}{2}
+\setcounter{subsection}{3}
+\setcounter{subsubsection}{4}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{7}
+\setcounter{table}{0}
+\setcounter{parentequation}{0}
+\setcounter{@todonotes@numberoftodonotes}{0}
+\setcounter{lstnumber}{3}
+\setcounter{float@type}{16}
+\setcounter{caption@flags}{0}
+\setcounter{continuedfloat}{0}
+\setcounter{@pps}{0}
+\setcounter{@ppsavesec}{0}
+\setcounter{@ppsaveapp}{0}
+\setcounter{Item}{2}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{17}
+\setcounter{tcbbreakpart}{0}
+\setcounter{tcblayer}{0}
+\setcounter{tcolorbox@number}{0}
+\setcounter{tcbrastercolumn}{0}
+\setcounter{tcbrasterrow}{0}
+\setcounter{tcbraster}{0}
+\setcounter{tcblisting}{0}
+\setcounter{lstlisting}{14}
+\setcounter{section@level}{0}
+\setcounter{subsubsubsection}{1}
+}

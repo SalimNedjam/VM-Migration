@@ -1,0 +1,75 @@
+[False, '512', '0', '2009600']
+total time: 3644 ms
+downtime: 37 ms
+[False, '512', '0', '2009600']
+total time: 3638 ms
+downtime: 31 ms
+[False, '512', '0', '2009600']
+total time: 3641 ms
+downtime: 38 ms
+[False, '512', '0', '2009600']
+total time: 3652 ms
+downtime: 48 ms
+[False, '512', '0', '2009600']
+total time: 3642 ms
+downtime: 33 ms
+[False, '1024', '0', '2009600']
+total time: 4941 ms
+downtime: 33 ms
+[False, '1024', '0', '2009600']
+total time: 4943 ms
+downtime: 31 ms
+[False, '1024', '0', '2009600']
+total time: 4959 ms
+downtime: 44 ms
+[False, '1024', '0', '2009600']
+total time: 4846 ms
+downtime: 37 ms
+[False, '1024', '0', '2009600']
+total time: 4839 ms
+downtime: 34 ms
+[False, '2048', '0', '2009600']
+total time: 5056 ms
+downtime: 41 ms
+[False, '2048', '0', '2009600']
+total time: 5149 ms
+downtime: 32 ms
+[False, '2048', '0', '2009600']
+total time: 5160 ms
+downtime: 31 ms
+[False, '2048', '0', '2009600']
+total time: 5157 ms
+downtime: 37 ms
+[False, '2048', '0', '2009600']
+total time: 5159 ms
+downtime: 41 ms
+[False, '4096', '0', '2009600']
+total time: 6453 ms
+downtime: 38 ms
+[False, '4096', '0', '2009600']
+total time: 6239 ms
+downtime: 27 ms
+[False, '4096', '0', '2009600']
+total time: 6156 ms
+downtime: 45 ms
+[False, '4096', '0', '2009600']
+total time: 6338 ms
+downtime: 29 ms
+[False, '4096', '0', '2009600']
+total time: 6236 ms
+downtime: 30 ms
+[False, '8192', '0', '2009600']
+total time: 7343 ms
+downtime: 33 ms
+[False, '8192', '0', '2009600']
+total time: 7253 ms
+downtime: 35 ms
+[False, '8192', '0', '2009600']
+total time: 7545 ms
+downtime: 35 ms
+[False, '8192', '0', '2009600']
+total time: 7344 ms
+downtime: 28 ms
+[False, '8192', '0', '2009600']
+total time: 7252 ms
+downtime: 34 ms
